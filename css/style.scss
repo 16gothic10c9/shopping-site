@@ -99,21 +99,31 @@ header {
             padding: 15px 0 10px 0;
         }
 
+        .pc_navi {
+            text-align: right;
+        }
+        
+        #sp_sns_btn{
+            margin-left: 5px;
+        }
+
         .pc_navi_li {
             margin: 50px 0 0 0;
             padding: 0;
+            text-align: right;
+            display: inline-block;
 
             li {
                 list-style: none;
                 margin: 5px 0 0 0;
                 padding: 0;
+                display: inline-block;
 
                 a {
                     color: #626262;
                     text-decoration: none;
                     font-weight: bold;
                     @include fontsize(14);
-                    float: left;
                     padding-right: 10px;
                 }
 
@@ -188,7 +198,8 @@ header {
 .home {
     background-color: $white;
     padding: 10px;
-    margin: 0px;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
 }
 
 .dots {}
@@ -264,13 +275,15 @@ h3 {
 }
 
 .slideshow {
-    border-bottom: 1px solid $braun;
-
+    border-bottom: 2px solid $white;
+    margin: 10px 0;
+    padding: 0 0 10px 0;
+    overflow: hidden;
 }
 
 .border_cart_cut {
-    border-top: 1px solid #bdbca2;
-    border-bottom: 1px solid #bdbca2;
+    border-top: 2px solid $white;
+    border-bottom: 2px solid $white;
     margin: 10px 0 10px 0;
     padding: 15px 0 15px 0;
     width: 50%;
@@ -281,8 +294,9 @@ h3 {
 
     .white {
         background-color: #ffffff;
-        width: 32.77%;
+        width: 29.95%;
         margin: 2px;
+        padding: 10px 10px 0 10px;
     }
 
     .shopping_guide {
@@ -295,7 +309,6 @@ h3 {
 
         }
     }
-
 
     .white_pro {
         background-color: #ffffff;
@@ -317,8 +330,8 @@ h3 {
             margin-top: 20px;
         }
         .border {
-            border-bottom: 1px solid #bdbca2;
-            margin: 0;
+            border-bottom: 2px solid $white;
+            margin: 10px 0;
             overflow: hidden;
         }
         .quantity {
@@ -331,6 +344,7 @@ h3 {
         #display_img img {
             width: 70%;
             float: left;
+            margin-top: 10px;
         }
         .list_img {
             width: 30%;
@@ -395,7 +409,7 @@ h3 {
             margin-top: 25px;
         }
         .border_braun {
-            border-bottom: 1px solid $braun;
+            border-bottom: 2px solid $braun;
             margin: 10px 0 10px 0;
         }
         .table_detail {
@@ -420,8 +434,9 @@ h3 {
 
     .white {
         background-color: #ffffff;
-        width: 48.55%;
+        width: 41.3%;
         margin: 2px;
+        padding: 10px;
     }
     .guide {
         width: auto;
@@ -457,7 +472,7 @@ h3 {
             color: $gray;
         }
         .border {
-            border-bottom: 1px solid #bdbca2;
+            border-bottom: 2px solid $white;
             margin: 10px 0 10px 0;
         }
         #display_img img {
@@ -468,7 +483,7 @@ h3 {
             display: inline-block;
         }
         li img {
-            width: 50px;
+            width: 50.6px;
             cursor: pointer;
         }
         table {
@@ -512,7 +527,7 @@ h3 {
             font-weight: bold;
         }
         .border_braun {
-            border-bottom: 1px solid $braun;
+            border-bottom: 2px solid $braun;
             margin: 10px 0 10px 0;
         }
         .table_detail {
@@ -532,6 +547,7 @@ h3 {
 .guide {
     box-sizing: border-box;
 }
+
 
 .center {
     display: block;
@@ -611,7 +627,7 @@ footer {
         margin: 40px;
     }
     .border {
-        border-bottom: 1px solid $braun;
+        border-bottom: 2px solid $braun;
         margin: 70px 0 40px 0;
     }
     p {
